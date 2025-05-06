@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+body {
+    background-color: #6F826A;
+}
+
+i {
+    font-weight: bold;
+}
+
+.container {
+    position: absolute;
+    height: 20rem;
+    width: 78rem;
+}
+
+header {
+    font-family: "Playfair Display", serif;
+}
+
+header img {
+    width: 95rem;
+}
+
+header .textheader {
+    position: relative;
+    top: -52rem;
+    font-size: xx-large;
+    text-align: center;
+    left: 9rem;
+    color: #F0F1C5;
+}
+
+header .textheader h1 {
+    height: 10rem;
+    font-size: 150px;
+    stroke: #BF9264;
+    -webkit-text-stroke: 3px #BF9264;
+}
+
+header .textheader h3 {
+    position: relative;
+    top: 28rem;
+    -webkit-text-stroke: 1px #BF9264;
+}
+
+
+
+.artikel {
+    width: auto;
+}
+
+.artikel .ingpo {
+    height: auto;
+    margin-left: 30px;
+    width: 60rem;
+    font-size: x-large;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+
+.artikel .ingpo h3 {
+    font-family: "Inter", sans-serif;
+}
+
+.artikel .imgs {
+    position: relative;
+    left: 65rem;
+    top: -10rem;
+    width: 0;
+}
+
+hr {
+    
+}
