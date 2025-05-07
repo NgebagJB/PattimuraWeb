@@ -108,3 +108,40 @@ hr {
     left: 50%;
     transform: translatex(-50%);
 }
+
+.galerry {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 10px;
+    background-color: #d8dcbb;
+    margin-left: 18em;
+}
+
+.card {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card p {
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6d7d65;
+    color: white;
+    font-size: 16px;
+    margin-left: 18em;
+}
